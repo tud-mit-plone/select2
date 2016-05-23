@@ -1,3 +1,5 @@
+@import "defaults";
+
 .select2-container {
   box-sizing: border-box;
 
@@ -44,5 +46,10 @@
   width: 1px !important;
 }
 
-@import "theme/default/layout";
-@import "theme/classic/layout";
+@if ($select2-theme == "default") {
+    @import "theme/default/layout";
+}
+
+@if ($select2-theme == "classic") {
+    @import "theme/classic/layout";
+}

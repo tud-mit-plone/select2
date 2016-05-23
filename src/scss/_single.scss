@@ -4,15 +4,14 @@
   cursor: pointer;
   display: block;
 
-  height: 28px;
+  height: $select2-single-height;
 
   user-select: none;
   -webkit-user-select: none;
 
   .select2-selection__rendered {
     display: block;
-    padding-left: 8px;
-    padding-right: 20px;
+    padding: $select2-single-padding;
 
     overflow: hidden;
     text-overflow: ellipsis;

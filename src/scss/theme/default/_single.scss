@@ -1,11 +1,11 @@
 .select2-selection--single {
   background-color: #fff;
-  border: 1px solid #aaa;
-  border-radius: 4px;
+  border: 1px solid $select2-border-color;
+  border-radius: $select2-border-radius;
 
   .select2-selection__rendered {
     color: #444;
-    line-height: 28px;
+    line-height: $select2-selection-line-height;
   }
 
   .select2-selection__clear {

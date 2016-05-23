@@ -1,15 +1,15 @@
 .select2-selection--multiple {
   background-color: white;
 
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
+  border: 1px solid $select2-border-color;
+  border-radius: $select2-border-radius;
 
   cursor: text;
 
   outline: 0;
 
   &:focus {
-    border: 1px solid $focus-border-color;
+    border: 1px solid $select2-focus-border-color;
   }
 
   .select2-selection__rendered {
@@ -25,8 +25,8 @@
   .select2-selection__choice {
     background-color: #e4e4e4;
 
-    border: 1px solid $border-color;
-    border-radius: $border-radius;
+    border: 1px solid $select2-border-color;
+    border-radius: $select2-border-radius;
 
     cursor: default;
 
@@ -38,7 +38,7 @@
   }
 
   .select2-selection__choice__remove {
-    color: $remove-color;
+    color: $select2-remove-color;
     cursor: pointer;
 
     display: inline-block;
@@ -47,7 +47,7 @@
     margin-right: 2px;
 
     &:hover {
-      color: $remove-hover-color;
+      color: $select2-remove-hover-color;
     }
   }
 }
@@ -72,7 +72,7 @@
 
 &.select2-container--open {
   .select2-selection--multiple {
-    border: 1px solid $focus-border-color;
+    border: 1px solid $select2-focus-border-color;
   }
 
   &.select2-container--above {
